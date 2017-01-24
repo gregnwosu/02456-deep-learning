@@ -7,7 +7,7 @@
 - placeholder = an open variable to stream data into
 - constant = static variable defined at compile time
 - variable = deferred and updateable value
-  - need to type sess.initialize_all_variables() to set
+  - need to type session.initialize_all_variables() to set
 
 ** feed dictionary
 - for improving speed of data input define a feed dictionary
@@ -15,4 +15,21 @@
 ** eval vs run
 eval only  takes one value
 
-**
+** tensorboard
+use to check the accuracy of models
+
+** spark version 2
+has tensor frames
+
+** cloud
+
+*** aws
+
+g2.2large
+
+*** azure
+NC6, NC12, NC24, NC24r
+
+*** ibm
+softlayer
+cheaper per month
