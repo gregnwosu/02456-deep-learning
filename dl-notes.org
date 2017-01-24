@@ -1,0 +1,18 @@
+
+
+
+* tensorflow
+
+** difference between variable value placeholder
+- placeholder = an open variable to stream data into
+- constant = static variable defined at compile time
+- variable = deferred and updateable value
+  - need to type sess.initialize_all_variables() to set
+
+** feed dictionary
+- for improving speed of data input define a feed dictionary
+
+** eval vs run
+eval only  takes one value
+
+**
