@@ -22,14 +22,35 @@ use to check the accuracy of models
 has tensor frames
 
 ** cloud
-
 *** aws
-
 g2.2large
-
 *** azure
 NC6, NC12, NC24, NC24r
-
 *** ibm
 softlayer
 cheaper per month
+*** debugging
+**** Use numpy
+ try implementing forward-graph
+**** ipython and tf.interactiveSession()
+**** debugging
+**** tensorboard
+***** commmunity
+groups.google.com/a/tensorflow.org/d/forum/discuss
+**** advanced
+***** queues
+for async communications
+***** checkpoints
+can save your model and load for later use
+***** serving
+framework for deploying to different platforms
+server
+mobile
+etc...
+**** resources
+www.tensorflow.org
+github.com/jtoy/awesome-tensorflow
+github.aymericadaminen/TensorFlow
+***** dialog modelling
+WildML tutorial
+deep learning for chatbots part2
