@@ -47,3 +47,13 @@ github.aymericadaminen/TensorFlow
 ***** dialog modelling
 WildML tutorial
 deep learning for chatbots part2
+** convolutional neural nets
+conv_arithmetic
+* tips
+** normalise batches
+- also provides a form of reguarisation
+-
+** initialise
+using normal distribution mean 0 and std 1
+
+** use adam optimisation
